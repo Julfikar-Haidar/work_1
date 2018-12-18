@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana; 
+	background: #f6f6f6;
+}
+h1,h2,h2,p{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*headre section start*/
+#header{
+
+}
+.top{
+	background: #344535;
+	padding: 8px 0px;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 12%;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 60%;
+	margin-top: 50px;
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Verdana;
+	padding-left: 77px;
+	color: #fff;
+	text-transform:uppercase;
+	transition: 0.5s;
+
+}
+.menu ul li:last-child a{
+	padding-right: 6px;
+}
+.menu ul li a:hover{
+	color: #2B62A8;
+}
+/*header section end*/
+/*Intro section start*/
+#intro{
+	padding: 10px 0;
+}
+.intro_size{
+	/*min-height: 300px;*/
+}
+.intro_image{
+	float: left;
+	width: 50%
+}
+.intro_image img{
+	width: 100%;
+}
+.intro_text{
+	float: right;
+	width: 45%;
+	padding: 17px 9px;
+}
+.intro_text h1{
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+.intro_text p{
+	padding: 10px 0;
+	font-size: 15px;
+	letter-spacing: 0;
+	text-align: justify;
+}
+/*Intro section end*/
+/*about section start*/
+#about{
+	padding: 25px 0;
+}
+.about_image{
+	float: left;
+	width: 30%;
+	margin-right: 35px;
+}
+
+.about_image img{
+	width: 100%;
+	padding-bottom: 5px;
+}
+.about_image h2{
+	font-size: 26px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.about_image p{
+	font-size: 15px;
+	padding-bottom: 15px;
+	text-align: justify;
+}
+
+/*about section end*/
+/*footer section start*/
+#footer{
+	padding-bottom: 30px;
+}
+.last{
+	background: #6EB8DF;
+}
+.text_area{
+	width: 23%;
+	float: left;
+	margin: 10px;
+}
+.text_area h1{
+	font-size: 26px;
+	font-weight: bold;
+}
+.text_area p{
+	font-size: 15px;
+	text-align: justify;
+}
+.left{
+	background-color: #000;
+	min-height: 10px;
+	width: 60%;
+	float: left;
+	border-radius: 10px;
+	margin-top:15px;
+}
+.right{
+	background-color:#FF0000;
+	float: right;
+	width: 20%;
+	border-radius: 10px;
+	min-height: 10px;
+	margin-top: 15px;
+}
+/*footer section end*/
